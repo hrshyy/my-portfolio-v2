@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Hero from "./menu/Hero";
+import About from "./menu/About";
+import Education from './menu/Education';
+import Skills from "./menu/Skills";
+import Projects from "./menu/Projects";
+import Contact from "./menu/Contact";
+import Header from "./menu/Header";
+<section 
+  id="about" 
+  className="bg-gradient-to-b from-pink-50 to-pink-100 text-gray-900 body-font py-24 px-6 mt-16">
+</section>
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Hero />
+      <About />
+      <Education/>
+      <Skills />
+      <Projects />
+      <Contact />
+      
+    </>
   );
 }
 
