@@ -14,12 +14,13 @@ function About() {
 
         <p className="leading-relaxed text-lg transition-opacity duration-1000 delay-200 opacity-100">
           I’m Harshika, a final-year Diploma student in Computer Science & Engineering at Karnataka Polytechnic (KPT), Mangalore.
-          I have a strong passion for web development and am currently sharpening my skills in React and Tailwind CSS to create modern, responsive websites.
+          I’m passionate about web development and enjoy building modern, responsive websites using React and Tailwind CSS.
         </p>
 
         <p className="leading-relaxed text-lg transition-opacity duration-1000 delay-400 opacity-100">
           Throughout my diploma, I’ve built a solid foundation in programming, databases, data structures, computer networks, and software engineering.
           I’ve gained practical experience through mini-projects, lab work, and collaborative assignments, which have helped me turn ideas into real solutions.
+          Currently, I’m doing my internship at Winman Software, where I’m working in software testing and gaining hands-on experience in quality assurance and real-world development workflows.
         </p>
 
         <p className="leading-relaxed text-lg transition-opacity duration-1000 delay-600 opacity-100">
